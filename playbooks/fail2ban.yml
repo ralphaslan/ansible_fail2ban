@@ -1,0 +1,6 @@
+---
+- name: Install and configure Fail2ban
+  hosts: ubuntu_servers
+  become: true
+  roles:
+    - fail2ban
