@@ -10,24 +10,24 @@ It sets up SSH protection with the following defaults:
 ---
 
 ## Directory Structure
-```css
-ansible-fail2ban/
-├── README.md
-├── ansible.cfg
-├── inventory/
-│   └── hosts.ini
-├── playbooks/
-│   └── fail2ban.yml
-└── roles/
-    └── fail2ban/
-        ├── tasks/
-        │   └── main.yml
-        ├── templates/
-        │   └── jail.local.j2
-        ├── handlers/
-        │   └── main.yml
-        └── defaults/
-            └── main.yml
+    ```css
+    ansible-fail2ban/
+    ├── README.md
+    ├── ansible.cfg
+    ├── inventory/
+    │   └── hosts.ini
+    ├── playbooks/
+    │   └── fail2ban.yml
+    └── roles/
+        └── fail2ban/
+            ├── tasks/
+            │   └── main.yml
+            ├── templates/
+            │   └── jail.local.j2
+            ├── handlers/
+            │   └── main.yml
+            └── defaults/
+                └── main.yml
 
 ---
 
