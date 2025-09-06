@@ -10,7 +10,6 @@ It sets up SSH protection with the following defaults:
 ---
 
 ## Directory Structure
-    ```css
     ansible-fail2ban/
     ├── README.md
     ├── ansible.cfg
