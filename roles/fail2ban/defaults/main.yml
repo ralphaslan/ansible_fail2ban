@@ -1,7 +1,7 @@
 ---
 
-fail2ban_maxretry: 5        # Max failed attempts before ban
-fail2ban_bantime: 86400     # Ban time in seconds (1 day)
-fail2ban_ignoreip: 127.0.0.1/8
+fail2ban_maxretry: 5            # Max failed attempts before ban
+fail2ban_bantime: 86400         # Ban time in seconds (1 day)
+fail2ban_ignoreip: 127.0.0.1/8  # for local testing: ""
 fail2ban_enabled_services:
   - sshd
