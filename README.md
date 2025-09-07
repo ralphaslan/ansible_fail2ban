@@ -42,7 +42,7 @@ It sets up SSH protection with the following defaults:
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/your-username/ansible-fail2ban.git
+   git clone https://github.com/ralphaslan/ansible-fail2ban.git
    cd ansible-fail2ban
 
 ---
